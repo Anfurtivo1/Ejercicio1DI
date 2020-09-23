@@ -55,8 +55,10 @@ namespace Ejercicio1
 					break;
 
 				case 4:
-					Console.WriteLine("Se va a realizar la sucesión de fibonacci");
-					Fibonacci.sucesionF();
+					int max;
+					Console.WriteLine("Indica cuantos numeros de Fibonacci quieres sacar");
+					max = int.Parse(Console.ReadLine());
+					Fibonacci.sucesionF(max);
 					break;
 
 				case 5:
