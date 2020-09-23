@@ -65,6 +65,11 @@ namespace Ejercicio1
 					Console.WriteLine("Adios");
 					break;
 
+				default:
+					Console.WriteLine("No es una opcion correcta, indica otra");
+					opcionV = int.Parse(Console.ReadLine());
+					break;
+
 			}
 
 			

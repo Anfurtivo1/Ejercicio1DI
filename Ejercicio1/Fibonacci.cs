@@ -27,7 +27,7 @@ namespace Ejercicio1
 				Console.WriteLine(numero2);
 				ejecutar = false;
 			}
-			if (max>2)
+			if (max> 5)
 			{
 				Console.WriteLine(numero);
 				Console.WriteLine(numero2);
